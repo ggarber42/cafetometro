@@ -1,26 +1,35 @@
 # Cafetômetro
 
-1. [ Motivação. ](#desc)
-2. [ Tinkercad ](#tinkercad)
-3. [ Materiais ](#materiais)
-4. [ Fotos e vídeos ](#fotos)
-5. [ Melhorias ](#melhorias)
+1. [ Motivação. ](#motivacao)
+2. [ Descrição ](#desc)
+3. [ Tinkercad ](#tinkercad)
+4. [ Materiais ](#materiais)
+5. [ Imagens e vídeos ](#fotos)
 6. [Lógica de programação](#programação)
 
-<a name="desc"></a>
+<a name="motivacao"></a>
 ## 1. Motivação
 
 Esse projeto tem como objetivo resolver dois problemas, dar um uso ao meu arduino esquecido e lembrar de tomar o café ainda quente.
 
+Além disso, o cafetômetro cumprirá a função de movimento agradável que fica no canto do olho.
+
+<a name="desc"></a>
+## 2. Descrição
+
+A ideia do projeto é ter um termômetro que me avise de maneira visual quando o café está esfriando. Isso é feito através da variação da frequência com que o LED pisca. Quando mais frio, mais o LED vai piscar para avisar.
+
+No projeto final, o sensor de temperatura vai ficar acoplado em um porta copo e este irá ficar em contato com a caneca com café. O circuito por sua vez ficará em um escudo conectado ao arduino.
+
 <a name="tinkercad"></a>
-## 2. Tinkercad
+## 3. Tinkercad
 
 Tinkercad do projeto neste momento
 
 [TinkerCad](https://www.tinkercad.com/things/aXVhiHVS6pv-cafetometro-setup/editel?sharecode=AZhJOKGMhrTikDS8NJhCn4-B_fKZe2LaZXSaKkZIl34)
 
 <a name="materiais"></a>
-## 3. Materiais
+## 4. Materiais
 
 + 1 arduino uno
 + 4 leds verdes
@@ -28,18 +37,25 @@ Tinkercad do projeto neste momento
 + 1 protoboard
 + 1 sensor de temperature Lm35
 
-<a name="fotos"></a>
-## 4. Fotos e vídeos
+<a name="img"></a>
+## 5. Imagens e vídeos
+
+**Esquema de circuito**
+
+![image](https://user-images.githubusercontent.com/26423380/145131782-f4571630-6006-4ff0-9743-ff8bf0689b7d.png)
+
+O esquema acima foi montado, vídeo abaixo demonstrando
 
 https://user-images.githubusercontent.com/26423380/145131211-20617071-a299-444b-90c4-1f861d89870e.mp4
 
-![Peek 2021-12-07 22-07](https://user-images.githubusercontent.com/26423380/145131230-1315ae84-eed0-40be-b10c-cc688ad606a7.gif)
+E uma gravação da tela, lendo a temperatura.
 
+https://user-images.githubusercontent.com/26423380/145132230-f36b1934-8c74-4b30-993c-e6a33f6a6912.mp4
 
 <a name="melhorias"></a>
-## 5. Melhorias
+## 6. Melhorias
 
 <a name="programação"></a>
-## 6. Lógica de programação
+## 7. Lógica de programação
 
 [Código aqui](https://github.com/ggarber42/cafetometro/blob/main/main.c)
