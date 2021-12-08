@@ -1,4 +1,4 @@
-# Cafetômetro
+# Cafetômetro - O termômetro de LED que seu café precisa!
 
 1. [ Motivação. ](#motivacao)
 2. [ Descrição ](#desc)
@@ -17,7 +17,7 @@ Além disso, o cafetômetro cumprirá a função de movimento agradável que fic
 <a name="desc"></a>
 ## 2. Descrição
 
-A ideia do projeto é ter um termômetro que me avise de maneira visual quando o café está esfriando. Isso é feito através da variação da frequência com que o LED pisca. Quando mais frio, mais o LED vai piscar para avisar.
+A ideia do projeto é ter um termômetro que me avise de maneira visual quando o café está esfriando. Isso é feito através da variação da frequência com que o LED pisca. Quando mais frio o café, maior a frequência com que o LED vai piscar.
 
 No projeto final, o sensor de temperatura vai ficar acoplado em um porta copo e este irá ficar em contato com a caneca com café. O circuito por sua vez ficará em um escudo conectado ao arduino.
 
@@ -44,16 +44,20 @@ Tinkercad do projeto neste momento
 
 ![image](https://user-images.githubusercontent.com/26423380/145131782-f4571630-6006-4ff0-9743-ff8bf0689b7d.png)
 
-O esquema acima foi montado, vídeo abaixo demonstrando
+O esquema acima foi montado, vídeo abaixo demonstrando:
 
 https://user-images.githubusercontent.com/26423380/145131211-20617071-a299-444b-90c4-1f861d89870e.mp4
 
-E uma gravação da tela, lendo a temperatura.
+E uma gravação da tela, lendo a temperatura do sensor:
 
 https://user-images.githubusercontent.com/26423380/145132230-f36b1934-8c74-4b30-993c-e6a33f6a6912.mp4
 
 <a name="melhorias"></a>
 ## 6. Melhorias
+
+A principal melhoria é montar um circuito solando os fios e acoplar de fato o sensor no porta copo. Uma ideia dada é utilizar uma folha de cobre pra aumentar a sensibilidade do sensor.
+
+Além disso, uma vez provando o conceito na protoboard, o último passo seria montar um escudo de arduino com esse conceito para que de fato pudessemos ter o cafetômetro em nossas mesas funcionando.
 
 <a name="programação"></a>
 ## 7. Lógica de programação
