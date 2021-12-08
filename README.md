@@ -44,7 +44,11 @@ Tinkercad do projeto neste momento
 
 ![image](https://user-images.githubusercontent.com/26423380/145131782-f4571630-6006-4ff0-9743-ff8bf0689b7d.png)
 
-O esquema acima foi montado, vídeo abaixo demonstrando:
+O esquema acima foi montado:
+
+![image](https://user-images.githubusercontent.com/26423380/145137181-191ff592-3b43-4f4c-b1e7-c9a0566ff85d.png)
+
+Vídeo abaixo monstrando funcionamento:
 
 https://user-images.githubusercontent.com/26423380/145131211-20617071-a299-444b-90c4-1f861d89870e.mp4
 
